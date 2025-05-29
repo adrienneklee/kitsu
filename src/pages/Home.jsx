@@ -1,15 +1,24 @@
-import { motion } from 'framer-motion';
-
 export default function Home() {
   return (
-    <motion.div
-      className="min-h-screen bg-black text-white flex flex-col justify-center items-center"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <h1 className="text-6xl font-light tracking-widest uppercase">Kitsu Dining</h1>
-      <p className="mt-4 text-sm tracking-widest uppercase text-gray-400">Toronto</p>
-    </motion.div>
+    <div className="relative w-screen h-screen overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/kitsu-caviar.jpg')" }}
+      />
+
+      {/* Dark overlay */}
+      <div className="absolute inset-0 z-10 bg-black/50 flex items-center justify-center">
+        <div>
+          <h1 className="text-white text-4xl md:text-6xl font-bold text-center">
+            kitsu private dining
+          </h1>
+          <h2 className="md:text-2xl font-bold text-center">
+          Savour the art of fine dining 
+          </h2>
+        </div>
+
+      </div>
+    </div>
   );
 }

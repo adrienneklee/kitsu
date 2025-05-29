@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
-#root {
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.page-container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -9,15 +16,18 @@
 
 * {
   /* border: 1px solid red; */
-  color: gold;
-  background-color: darkblue;
+  color: white;
+  /* background-color: darkblue; */
 }
 
 a {
-  color: gold;
-}
-
-a:hover {
   color: white;
 }
 
+a:hover {
+  color: gold;
+}
+
+.hamburger {
+  background-color: darkblue;
+}

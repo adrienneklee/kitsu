@@ -1,12 +1,13 @@
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/NavBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Menu from './pages/Menu';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import Navbar from './components/NavBar';
+
 
 export default function App() {
   return (

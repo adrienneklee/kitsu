@@ -25,7 +25,7 @@ export default function Navbar() {
         />
 
         <button
-          className="md:hidden"
+          className="md:hidden hamburger"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >
