@@ -1,6 +1,6 @@
-export default function Home() {
+export default function Menu() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
+    <div className="relative w-screen min-h-screen overflow-hidden pt-20">
       {/* Background image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
@@ -8,36 +8,24 @@ export default function Home() {
       />
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 z-10 bg-black/50 flex items-center justify-center">
-        <div className="text-center mt-18">
-          <h2 className="text-4xl mb-2 tracking-wider lowercase">Menu</h2>
-          <p className="max-w-4xl mx-auto italic mb-6">	Our menus are tailored to the tastes of each of our unique clients. Based on your personal appetite and seasonal availability only the best ingredients are sourced for you and are guaranteed to impress. A sample menu can be found below: </p>
+      <div className="absolute inset-0 z-10 bg-black/50 flex items-center justify-center px-4 py-12">
+        <div className="text-center text-white max-w-4xl w-full mt-30">
+          <h2 className="text-3xl sm:text-4xl mb-4 tracking-wider lowercase">
+            Menu
+          </h2>
 
-          <p className="max-w-2xl mx-auto italic">Canapés</p>
-          <p className="max-w-2xl mx-auto">kistu signature caviar tart</p>
-          <p className="max-w-2xl mx-auto">Tuna tartare spring roll</p>
-          <p className="max-w-2xl mx-auto">Foie gras honey butter toast </p>
+          <p className="mb-8 text-sm sm:text-base md:text-lg">
+            Our menus are tailored to the tastes of each of our unique clients.
+            Based on your personal appetite and seasonal availability, only the best
+            ingredients are sourced for you and are guaranteed to impress. A sample
+            menu can be found below:
+          </p>
 
-          <p className="max-w-2xl mx-auto mt-6">BC spot prawns + wild leeks</p>
-          <p className="max-w-2xl mx-auto italic">celery root and ramp emulsion</p>
-
-          <p className="max-w-2xl mx-auto mt-6">Hokkaido scallops + caviar </p>
-          <p className="max-w-2xl mx-auto italic">brown butter beurre blanc </p>
-
-          <p className="max-w-2xl mx-auto mt-6">Black cod + white asparagus </p>
-          <p className="max-w-2xl mx-auto italic">crab and corn bisque </p>
-
-          <p className="max-w-2xl mx-auto mt-6">Dry aged ribeye + wild mushrooms </p>
-          <p className="max-w-2xl mx-auto italic">glazed leeks and truffle jus </p>
-
-          <p className="max-w-2xl mx-auto mt-6">Coffee + Chocolate</p>
-          <p className="max-w-2xl mx-auto">Milk + Honey</p>
+          <div className="space-y-6 text-sm sm:text-base md:text-lg">
+            <a className="menu" href="/Kitsu-sample-menu.pdf" target="_blank" rel="noopener noreferrer">Summer 2025 Sample Menu</a>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-
-
-

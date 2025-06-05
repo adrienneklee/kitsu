@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
 /* #root {
@@ -17,7 +19,7 @@
 * {
   /* border: 1px solid red; */
   color: white;
-  /* background-color: darkblue; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -26,8 +28,31 @@ a {
 
 a:hover {
   color: gold;
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .hamburger {
-  background-color: darkblue;
+  background-color: transparent;
+}
+
+.menu {
+    border: 1px solid gold;
+    color: gold;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+
+}
+
+.menu:hover {
+  border-color: transparent;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.gallery {
+  margin-top: 150px;
 }
