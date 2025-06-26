@@ -44,13 +44,13 @@ export default function Navbar() {
         ${shouldShowBlackBg ? 'bg-black' : 'bg-transparent'}`}
     >
       <div className="flex items-center justify-between">
-        <a href="/">
+        <Link href="/">
           <img
             src={Logo}
             alt="kitsu Logo"
             className="h-35 w-70 object-cover"
           />
-        </a>
+        </Link>
 
 
         <button
