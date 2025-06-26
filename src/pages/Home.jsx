@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl md:text-6xl font-bold text-center">
             kitsu private dining
           </h1>
-          <h2 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mt-2 text-center">
+          <h2 className="text-white text-m sm:text-l md:text-xl mt-2 text-center">
           savour the taste of fine dining at home
           </h2>
         </div>
