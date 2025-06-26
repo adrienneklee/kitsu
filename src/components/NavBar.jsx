@@ -40,7 +40,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full h-full z-50 px-10 py-4 transition-colors duration-300 
+      className={`fixed top-0 left-0 w-full z-50 px-10 py-4 transition-colors duration-300 
         ${shouldShowBlackBg ? 'bg-black' : 'bg-transparent'}`}
     >
       <div className="flex items-center justify-between">
