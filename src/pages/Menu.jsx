@@ -22,7 +22,7 @@ export default function Menu() {
           </p>
 
           <div className="space-y-6 text-sm sm:text-base md:text-lg">
-            <a className="menu" href="/Kitsu-sample-menu.pdf" target="_blank" rel="noopener noreferrer">Summer 2025 Sample Menu</a>
+            <a className="menu" href="/kitsu-menu.pdf" target="_blank" rel="noopener noreferrer">Summer 2025 Sample Menu</a>
           </div>
         </div>
       </div>
