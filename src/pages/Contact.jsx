@@ -22,7 +22,7 @@ export default function Contact() {
           rel="noopener noreferrer" 
           className="mb-2"
           >
-            Kitsu@Email.com
+            info@kitsu.ca
           </a>
           
           <div className="flex items-center justify-center mt-2">

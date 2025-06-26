@@ -17,7 +17,7 @@ export default function Home() {
             kitsu private dining
           </h1>
           <h2 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mt-2 text-center">
-          savour the art of fine dining 
+          savour the taste of fine dining at home
           </h2>
         </div>
 
