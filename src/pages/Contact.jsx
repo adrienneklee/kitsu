@@ -15,7 +15,7 @@ export default function Contact() {
           <h2 className="text-4xl mb-4 lowercase tracking-wider">Contact</h2>
           <p className="mb-2">For reservations or inquiries, please email us directly:</p>
 
-          <a href="mailto: jonathan.kemeny@gmail.com?subject=Kitsu Dining Reservations & Inquiries." 
+          <a href="mailto: info@kitsu.ca?subject=Kitsu Dining Reservations & Inquiries." 
           title="Email" 
           aria-label="Email address"
           target="_blank" 
