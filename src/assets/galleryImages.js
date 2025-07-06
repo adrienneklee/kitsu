@@ -12,6 +12,19 @@ const images = [
     { src: '/kitsu-scallop.JPG', alt: 'tweezers place details on top of a dish of canapés' },
     { src: '/kitsu-tweezers.JPG', alt: 'two hands are seen holding tweezers placing details on a canapé' },
     { src: '/kitsu-urchin.JPG', alt: 'a delicious canapé is plated on a blue dish' },
+    { src: '/kitsu-canapes.jpeg', alt: 'a trio of three different canapes' },
+    { src: '/kitsu-caviar-tin.jpeg', alt: 'an open tin of black caviar' },
+    { src: '/kitsu-caviar-tweezers.jpeg', alt: 'tweezers being used to delicately place caviar on a canape' },
+    { src: '/kitsu-cod.jpeg', alt: 'a hand gently places a piece of seared cod on a plate' },
+    { src: '/kitsu-crabcake.jpeg', alt: 'a squeeze bottle is used to add sauce to a crab cake' },
+    { src: '/kitsu-dessert.jpeg', alt: 'glass dishes with chocolate and coffee dessert' },
+    { src: '/kitsu-duck.jpeg', alt: 'two hands sprinkle salt over a tray of freshly baked duck breast' },
+    { src: '/kitsu-jon.jpeg', alt: 'an image of Chef Jon standing in a kitchen' },
+    { src: '/kitsu-mai-jon.jpeg', alt: 'an image of Chef Jon and his wife Mai standing in a kitchen' },
+    { src: '/kitsu-sear.jpeg', alt: 'a piece of fish being seared in butter' },
+    { src: '/kitsu-shrimp.jpeg', alt: 'a delicious dish of shrimp in a decadent cream sauce' },
+    { src: '/kitsu-spoon.jpeg', alt: 'a spoon drizzles sauce on a white plate' },
+    { src: '/kitsu-tiramusu.jpeg', alt: 'Chef Jon famous coffee and chocolate' },
 ];
 
 export default images;
